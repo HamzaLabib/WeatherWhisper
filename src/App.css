@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #6f6c6e;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  position: relative;
+  background: white;
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.refresh-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #706c6e;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.refresh-button:hover {
+  background-color: #0c0849;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  margin: 0.5rem;
+  background-color: #0b0c57;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0a0f43;
+}
+
+/* Forecast section */
+.forecast {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #8d9194;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forecast h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.forecast-days {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.forecast-day {
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-day p {
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Weather display */
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info p {
+  font-size: 1.2rem;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .App {
+    width: 90%;
+    max-width: 400px;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+}
+
+  .forecast-day {
+    width: 80%;
+  }
