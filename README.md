@@ -5,6 +5,9 @@
     - npm install
 - API Key
     - To fetch weather data from Open Weather Map (https://openweathermap.org/), you need an API key by log in or sign up.
+    - Replace api_key variable with your key direct in the url on the following:
+        - App.jsx line 27
+        - Component/Forecast.jsx line 20
 - Start the development server
     - npm run dev
 
