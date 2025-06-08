@@ -22,7 +22,7 @@ function App() {
     try {
       setLoading(true);
       setError('');
-      const apiKey = import.meta.env.API_KEY;
+      const apiKey = import.meta.env.VITE_API_KEY;
       const res = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${unit}`
       );
