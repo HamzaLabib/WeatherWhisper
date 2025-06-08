@@ -1,7 +1,7 @@
 # Weather Whisper App
 
 ## Deployment Link
-- https://weatherwhisper-vy49.onrender.com
+- https://weather-whisper.onrender.com
 
 ## How to run
 - Install the required packages
