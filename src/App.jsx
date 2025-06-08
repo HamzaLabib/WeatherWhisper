@@ -24,7 +24,7 @@ function App() {
       setError('');
       const apiKey = import.meta.env.WEATHER_KEY;
       const res = await axios.get(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${unit}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${'763e7400b23eb2879b13d6c44bb051f3'}&units=${unit}`
       );
       setWeather(res.data);
     } catch (err) {

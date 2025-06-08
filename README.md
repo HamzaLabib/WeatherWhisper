@@ -31,3 +31,6 @@
 - 5-Day Weather Forecast for the selected city.
 - Users can search by city and retrieve weather data.
 - Switch between Celsius and Fahrenheit units.
+
+## Deployment Link
+- https://weatherwhisper-vy49.onrender.com
