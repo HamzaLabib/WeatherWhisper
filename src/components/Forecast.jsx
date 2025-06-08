@@ -14,10 +14,10 @@ function Forecast({ city, unit }) {
       setError('');
 
       try {
-        const apiKey = import.meta.env.VITE_FORECAST_API_KEY;
+        const apiKey = import.meta.env.API_KEY;
 
         const res = await axios.get(
-          `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${'763e7400b23eb2879b13d6c44bb051f3'}&units=${unit}`
+          `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=${unit}`
         );
 
         const daily = res.data.list.filter((_, index) => index % 8 === 0);
