@@ -1,13 +1,14 @@
 # Weather Whisper App
 
+## Deployment Link
+- https://weatherwhisper-vy49.onrender.com
+
 ## How to run
 - Install the required packages
     - npm install
 - API Key
     - To fetch weather data from Open Weather Map (https://openweathermap.org/), you need an API key by log in or sign up.
-    - Replace api_key variable with your key direct in the url on the following:
-        - App.jsx line 27
-        - Component/Forecast.jsx line 20
+    - Add an .env file then add VITE_API_KEY= your key form the website.
 - Start the development server
     - npm run dev
 
@@ -31,6 +32,3 @@
 - 5-Day Weather Forecast for the selected city.
 - Users can search by city and retrieve weather data.
 - Switch between Celsius and Fahrenheit units.
-
-## Deployment Link
-- https://weatherwhisper-vy49.onrender.com
